@@ -49,4 +49,18 @@ object Expressions extends App {
 
     if (z > 2) "hello" else "goodbye"
   }
+
+  // 1. difference between "hello world" vs println ("hello world")?
+  // 2.
+
+  val someValue = {
+    2 < 3
+  }
+
+  val someOtherValue = {
+    if(someValue) 239 else 986
+    42
+  }
+
+  println(someOtherValue)
 }
