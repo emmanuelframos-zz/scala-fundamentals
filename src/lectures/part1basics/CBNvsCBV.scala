@@ -18,7 +18,7 @@ object CBNvsCBV extends App {
   def infinite(): Int = 1 + infinite()
   def printFirst(x: Int, y: => Int) = println(x)
 
-  printFirst(infinite(), 34) //causes stack overflow, because the first parameter is evaluated at every use within
-  printFirst(34, infinite()) //lazy evaluation avoid stack overflow, cause second parameter is not used
+  printFirst(infinite(), 34) //causes stack overflow, because the first parameter VALUE is computed before call
+  printFirst(34, infinite()) //lazy evaluation avoid stack overflow, because second parameter (EXPRESSION) is evaluated at every use within
 
 }
