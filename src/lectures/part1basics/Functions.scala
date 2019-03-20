@@ -19,7 +19,7 @@ object Functions extends App {
 
   println(aRepeatedFunction("hello", 3))
 
-  // WHEN YOU NEED LOOPS< USE RECURSION.
+  // WHEN YOU NEED LOOPS USE RECURSION.
 
   def aFunctionWithSideEffects(aString: String) = println(aString)
 
@@ -56,8 +56,6 @@ object Functions extends App {
 
   println(isPrime(31))
 
-
-
   /*
   1. A greeting function (name, age) => "Hi, my name is $name and I am $age years old"
   2. Factorial function 1 * 2 * 3 * .. * n
@@ -67,5 +65,4 @@ object Functions extends App {
     f(n) = f(n-1) + f(n-2)
   4. Test if a number is prime
    */
-
 }
