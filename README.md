@@ -1,4 +1,4 @@
-# Scala for Beginners
+# Scala Fundamentals
 A Scala project with exercises, lectures and a playground.
 
 ## Tools Version
