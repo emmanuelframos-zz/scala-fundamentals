@@ -21,7 +21,7 @@ object MethodNotations extends App {
   // infix notation = operator notation (syntactic sugar)
 
   // "operators" in Scala
-  val tom= new Person("Tom", "Fight Club")
+  val tom = new Person("Tom", "Fight Club")
   println(mary + tom)
   println(mary.+(tom))
 
